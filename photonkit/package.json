@@ -1,19 +1,21 @@
 {
-  "name": "webkitty-nvue",
+  "name": "webkitty-photonkit",
   "version": "1.0.0",
   "author": "Felix",
   "private": true,
   "main": "index.html",
   "chromium-args": "--enable-logging=stderr --allow-file-access-from-files",
   "window": {
-    "id": "webkitty-nvue",
-    "title": "Webkitty NVUE",
+    "id": "webkitty-photonkit",
+    "title": "Webkitty Photon",
     "position": "center",
     "min_width": 800,
-    "min_height": 600
+    "min_height": 600,
+    "frame": false
   },
   "dependencies": {
     "bootstrap": "^4.1.2",
+    "photonkit": "^0.1.2",
     "vue": "^2.5.17"
   },
   "devDependencies": {
