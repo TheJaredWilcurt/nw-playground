@@ -5,9 +5,12 @@ const root = new Vue({
     template: `
     <div class="homepage">
         <div class="hello">
-            <h1>Hello world!</h1>
+            <h1>Hello {{ location }}!</h1>
             <pre><code>npm install & npm start</code></pre>
         </div>
     </div>
-    `
+    `,
+    data: {
+        location: 'World'
+    }
 });
