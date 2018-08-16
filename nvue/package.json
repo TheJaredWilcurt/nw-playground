@@ -12,6 +12,7 @@
   "chromium-args": "--enable-logging=stderr --allow-file-access-from-files --load-extension='./node_modules/nw-vue-devtools/extension'",
   "window": {
     "id": "webkitty-nvue",
+    "icon": "assets/icon.png",
     "title": "Webkitty NVUE",
     "position": "center",
     "min_width": 800,
@@ -46,7 +47,15 @@
     "overriddenProperties": {
       "chromium-args": "--allow-file-access-from-files"
     },
+    "win": {
+      "icon": "assets/icon.ico"
+    },
+    "mac": {
+      "icon": "assets/icon.icns"
+    },
     "nsis": {
+      "icon": "assets/icon.ico",
+      "unIcon": "assets/icon.ico",
       "languages": [
         "English"
       ],
