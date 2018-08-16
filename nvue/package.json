@@ -22,6 +22,7 @@
     "nw-vue-devtools": "^1.1.1"
   },
   "scripts": {
+    "start": "cross-env NODE_ENV=development nwbuild -r .",
     "dev": "cross-env NODE_ENV=development nwbuild -r .",
     "build": "cross-env NODE_ENV=production node build/build.js"
   }

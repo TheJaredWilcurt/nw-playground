@@ -6,10 +6,7 @@ const root = new Vue({
     <div class="homepage">
         <div class="hello">
             <h1>Hello world!</h1>
-            
-<pre><code>npm install
-npm run dev
-</code></pre>
+            <pre><code>npm install & npm start</code></pre>
         </div>
     </div>
     `
