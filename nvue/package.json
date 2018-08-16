@@ -4,7 +4,7 @@
   "author": "Felix",
   "private": true,
   "main": "index.html",
-  "chromium-args": "--enable-logging=stderr --allow-file-access-from-files",
+  "chromium-args": "--enable-logging=stderr --allow-file-access-from-files --load-extension='./node_modules/nw-vue-devtools/extension'",
   "window": {
     "id": "webkitty-nvue",
     "title": "Webkitty NVUE",
@@ -13,12 +13,13 @@
     "min_height": 600
   },
   "dependencies": {
-    "bootstrap": "^4.1.2",
+    "bootstrap": "^4.1.3",
     "vue": "^2.5.17"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "nw-builder": "^3.5.4",
-    "cross-env": "^5.2.0"
+    "nw-vue-devtools": "^1.1.1"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nwbuild -r .",
